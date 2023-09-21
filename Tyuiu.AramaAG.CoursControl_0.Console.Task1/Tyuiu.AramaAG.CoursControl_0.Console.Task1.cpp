@@ -8,7 +8,7 @@ int main()
 {
     setlocale(LC_ALL, "rus");
     cout << "Введите целое трехзначное число  ";
-    int a; 
+    int a;
     cin >> a;
     ISprint0Task8V0* rezult = new Service();
     int c = rezult->Control(a);
