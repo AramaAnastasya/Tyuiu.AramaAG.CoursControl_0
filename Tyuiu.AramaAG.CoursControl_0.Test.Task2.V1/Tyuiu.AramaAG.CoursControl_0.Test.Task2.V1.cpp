@@ -12,9 +12,9 @@ namespace TyuiuAramaAGCoursControl0TestTask2V1
 		TEST_METHOD(TestMethod1)
 		{
 			ISprint0Task8V2* rezult = new Service(); 
-			int x = 4;
+			int x = 4; 
 			int y = 2;
-			int z = 1;
+			int z = 1; 
 			int c = rezult->Rezultat(x, y, z);
 			Assert::AreEqual(6, c);
 		}
