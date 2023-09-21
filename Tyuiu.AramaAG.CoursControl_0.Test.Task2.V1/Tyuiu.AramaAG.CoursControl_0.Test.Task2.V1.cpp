@@ -11,7 +11,7 @@ namespace TyuiuAramaAGCoursControl0TestTask2V1
 		
 		TEST_METHOD(TestMethod1)
 		{
-			ISprint0Task8V2* rezult = new Service();
+			ISprint0Task8V2* rezult = new Service(); 
 			int x = 4;
 			int y = 2;
 			int z = 1;
